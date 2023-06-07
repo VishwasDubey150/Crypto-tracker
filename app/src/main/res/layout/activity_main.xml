@@ -9,7 +9,18 @@
     android:background="@color/black"
     android:orientation="vertical">
 
-
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/kadwa"
+        android:hint="search hear.."
+        android:paddingLeft="30sp"
+        android:background="@drawable/et_bg">
+    </EditText>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
@@ -18,5 +29,13 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
     </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-500dp">
+    </ProgressBar>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

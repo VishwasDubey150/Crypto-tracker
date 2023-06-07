@@ -43,6 +43,7 @@
                 android:textSize="30dp"
                 android:layout_margin="10dp"
                 android:text="Price"
+                android:gravity="right"
                 android:textColor="#D2D0D0"
                 android:fontFamily="sans-serif-black">
             </TextView>
